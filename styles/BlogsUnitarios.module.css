@@ -1,0 +1,43 @@
+.entrada{
+    max-width: 88rem;
+    margin: 0 auto;
+}
+.contenido{
+    padding: 2rem;
+}
+.contenido h1{
+    font-weight: 400;
+    font-size: 2.8rem;
+    margin: 0%;
+}
+.fecha{
+    font-size: 1.6rem;
+    color: var(--primary);
+}
+.resumen{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    
+}
+.enlace{
+    color: var(--negro);
+    margin-top: 2rem;
+    display: block;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 1rem 5rem;
+    border: 1px solid var(--primary);
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+.enlace:hover{
+    background-color: var(--primary);
+    color: var(--blanco);
+}
+.texto{
+    white-space: pre-wrap;
+}
